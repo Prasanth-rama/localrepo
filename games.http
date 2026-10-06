@@ -1,0 +1,32 @@
+GET http://localhost:5089/games
+
+###
+GET http://localhost:5089/games/4
+
+###
+POST http://localhost:5089/games
+Content-Type: application/json
+
+{
+    "Name":"Test Game",
+    "GenreId":2,
+    "Price":29.99,
+    "ReleaseDate":"1994-10-20"
+}
+
+####
+PUT http://localhost:5089/games/3
+Content-Type: application/json
+
+{
+    "Name":"Steet and road fighter II Turbo",
+    "GenreId":2,
+    "Price":19.99,
+    "ReleaseDate":"2025-10-20"
+  }
+
+###
+DELETE http://localhost:5089/games/4
+
+###
+GET http://localhost:5089/genres

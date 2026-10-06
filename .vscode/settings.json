@@ -1,0 +1,5 @@
+{
+    "dotnet.defaultSolution": "GameStore.API.slnx",
+    "sqlite.sqlite3": "C:\\Users\\Admin\\.vscode\\extensions\\alexcvzz.vscode-sqlite-0.14.1\\bin\\sqlite-v3.26.0-win32-x86.exe"
+
+}
